@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.audio.kugouFm"
+	name="酷狗FM"
+	version="0.0.1"
+	provider-name="keygle">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kugou fm audio plugin</summary>
+        <summary lang="zh">酷狗FM插件</summary>
+        <description>kugou fm audio plugin</description>
+        <description lang="zh">酷狗FM插件</description>
+        <platform>all</platform>
+    </extension>
+</addon>
